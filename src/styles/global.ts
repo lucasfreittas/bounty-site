@@ -12,12 +12,20 @@ export const globalStyles = globalCss({
     },
 
     body: {
-        backgroundColor: '$brand-blue',
-        'webkit-font-smoothing': 'antialised'
+        backgroundColor: '$white',
+        'webkit-font-smoothing': 'antialised',
+        margin: 'auto',
+        overflowX: 'hidden',
     },
 
     'body, input, textarea, button': {
         fontFamily: 'Poppins, sans-serif',
         fontWeight: '400'
+    },
+
+    'button, a': {
+        border: 'none',
+        boxShadow: 'none',
+        textDecoration: 'none',
     }
 })
