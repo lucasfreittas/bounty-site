@@ -4,7 +4,7 @@ export const MenuWrapper = styled('div', {
     position: 'absolute',
     top: 0,
     width: '100vw',
-    zIndex: 9,
+    zIndex: 20,
 });
 
 export const MenuContainer = styled('div', {
